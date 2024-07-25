@@ -36,7 +36,7 @@ spec:
         - name: PORT
           value: "8000"
         - name: MODEL_PATH
-          value: /model/model.file
+          value: /model/detr-resnet-101
         - name: CHAT_FORMAT
           value: openchat
         image: quay.io/redhat-ai-dev/object_detection_python:latest
