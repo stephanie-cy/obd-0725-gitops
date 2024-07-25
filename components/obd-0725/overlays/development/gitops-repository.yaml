@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: obd-0725-gitops-repository
+spec:
+  url: https://github.com/stephanie-cy/obd-0725-gitops

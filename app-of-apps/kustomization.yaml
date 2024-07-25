@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:         
+  rhtap/gitops: obd-0725 
+  janus-idp.io/tekton: obd-0725
+  backstage.io/kubernetes-id: obd-0725
+  backstage.io/kubernetes-namespace: obd-0725 
+  app.kubernetes.io/part-of: obd-0725
+resources: 
+- application-dev.yaml
