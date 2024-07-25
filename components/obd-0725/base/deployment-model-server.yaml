@@ -39,7 +39,7 @@ spec:
           value: /model/model.file
         - name: CHAT_FORMAT
           value: openchat
-        image: quay.io/ai-lab/object_detection_python:latest
+        image: quay.io/redhat-ai-dev/object_detection_python:latest
         volumeMounts:
         - name: model-file
           mountPath: /model
