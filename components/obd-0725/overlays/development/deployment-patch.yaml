@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/yangcao/obd-0725:901cab054649927bbb2a99be9067e0f026efa66d@sha256:1c98fad7d86e1d3e98e18b105e170d53ca4eb3a95f842e5867d402eea0f6464d # use pre-built to bootstrap 
+        - image: quay.io/yangcao/object_detection:latest # use pre-built to bootstrap 
           name: app-inference
